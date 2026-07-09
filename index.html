@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToneMatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h1>✨ ToneMatch</h1>
+        <p class="subtitle">Find Your Perfect Hair Color</p>
+
+        <div class="field-group">
+            <label for="currentColor">Mevcut Saç Rengi</label>
+
+            <select id="currentColor">
+                <option value="">Seçiniz</option>
+                <option>Siyah (1.0)</option>
+                <option>Çok Koyu Kahve (2.0)</option>
+                <option>Koyu Kahve (3.0)</option>
+                <option>Orta Kahve (4.0)</option>
+                <option>Açık Kahve (5.0)</option>
+                <option>Koyu Kumral (6.0)</option>
+                <option>Kumral (7.0)</option>
+                <option>Küllü Kumral (7.1)</option>
+                <option>Altın Kumral (7.3)</option>
+                <option>Bakır Kumral (7.4)</option>
+                <option>Açık Kumral (8.0)</option>
+                <option>Küllü Açık Kumral (8.1)</option>
+                <option>Altın Açık Kumral (8.3)</option>
+                <option>Çok Açık Kumral (9.0)</option>
+                <option>Çok Açık Küllü Sarı (9.1)</option>
+                <option>Altın Sarı (9.3)</option>
+                <option>Platin Sarı (10.0)</option>
+                <option>Bal Köpüğü</option>
+                <option>Karamel</option>
+                <option>Mocha</option>
+                <option>Çikolata Kahve</option>
+                <option>Fındık Kabuğu</option>
+                <option>Kestane</option>
+                <option>Tarçın</option>
+                <option>Bakır</option>
+                <option>Yoğun Bakır</option>
+                <option>Kızıl</option>
+                <option>Bordo</option>
+                <option>Gümüş Gri</option>
+            </select>
+        </div>
+
+        <div class="field-group">
+            <label for="desiredColor">İstediğiniz Renk</label>
+
+            <select id="desiredColor">
+                <option value="">Seçiniz</option>
+                <option>Siyah (1.0)</option>
+                <option>Çok Koyu Kahve (2.0)</option>
+                <option>Koyu Kahve (3.0)</option>
+                <option>Orta Kahve (4.0)</option>
+                <option>Açık Kahve (5.0)</option>
+                <option>Koyu Kumral (6.0)</option>
+                <option>Kumral (7.0)</option>
+                <option>Küllü Kumral (7.1)</option>
+                <option>Altın Kumral (7.3)</option>
+                <option>Bakır Kumral (7.4)</option>
+                <option>Açık Kumral (8.0)</option>
+                <option>Küllü Açık Kumral (8.1)</option>
+                <option>Altın Açık Kumral (8.3)</option>
+                <option>Çok Açık Kumral (9.0)</option>
+                <option>Çok Açık Küllü Sarı (9.1)</option>
+                <option>Altın Sarı (9.3)</option>
+                <option>Platin Sarı (10.0)</option>
+                <option>Bal Köpüğü</option>
+                <option>Karamel</option>
+                <option>Mocha</option>
+                <option>Çikolata Kahve</option>
+                <option>Fındık Kabuğu</option>
+                <option>Kestane</option>
+                <option>Tarçın</option>
+                <option>Bakır</option>
+                <option>Yoğun Bakır</option>
+                <option>Kızıl</option>
+                <option>Bordo</option>
+                <option>Gümüş Gri</option>
+            </select>
+        </div>
+
+        <button id="analyzeButton" type="button">ANALYZE</button>
+
+        <div id="result" class="result" aria-live="polite"></div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
